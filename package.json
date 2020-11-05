@@ -1,0 +1,34 @@
+{
+  "name": "card-layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack -w",
+    "start": "nodemon server.js",
+    "webapp:dev": "concurrently 'npm:build' 'npm:start' "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "json-loader": "^0.5.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "concurrently": "^5.3.0",
+    "css-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^1.2.1",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6",
+    "postcss-loader": "^4.0.4",
+    "sass-loader": "^10.0.5",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.1.0"
+  }
+}

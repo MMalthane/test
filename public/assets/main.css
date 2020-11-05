@@ -1,0 +1,40 @@
+body .card {
+  width: 24rem !important;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+  border: 6px solid #f3eded; }
+  body .card .card-img-top {
+    width: 372px;
+    height: 250px;
+    background-image: url("https://place-hold.it/372x250/blue");
+    margin: 0 0 30px 0;
+    padding: 0px; }
+    body .card .card-img-top .price {
+      position: absolute;
+      top: 40%;
+      background-color: #ee9460;
+      left: 35%;
+      z-index: 9999999999999;
+      height: 50px;
+      width: 100px;
+      color: #fff;
+      padding: 14px;
+      font-size: 16px; }
+  body .card .card-body {
+    font-family: 'Times New Roman', Times, serif; }
+    body .card .card-body .card-title {
+      font-size: 23px;
+      font-weight: bold; }
+    body .card .card-body .card-text {
+      color: #666; }
+  body .card .card-footer {
+    border-top: 1px solid #d6cece;
+    background-color: #fff; }
+    body .card .card-footer .card-title {
+      margin-bottom: 0; }
+    body .card .card-footer .card-text {
+      font-size: 16px; }
+
+
+/*# sourceMappingURL=main.css.map*/
